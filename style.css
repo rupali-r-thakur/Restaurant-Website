@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 10vh;
+  width: 100%;
+  /* background-color: red; */
+  position: relative;
+}
+.logo-image {
+  /* background-color: blue; */
+  height: 10vh;
+  width: 60px;
+  position: absolute;
+  left: 20px;
+}
+.logo {
+  height: 8vh;
+  width: 80%;
+  margin-top: 6px;
+  border-radius: 50%;
+}
+.name {
+  /* background-color: chartreuse; */
+  height: 10vh;
+  width: 20%;
+  position: absolute;
+  left: 80px;
+  color: green;
+}
+.section1-container {
+  /* background-color: red; */
+  height: 60vh;
+  width: 100%;
+  position: relative;
+}
+.main-image-container {
+  /* background-color: blue; */
+  height: 60vh;
+  width: 50%;
+  position: absolute;
+  float: left;
+  margin-right: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-img {
+  height: 40vh;
+  width: 40%;
+  border-radius: 50%;
+}
+.header-container {
+  /* background-color: crimson; */
+  height: 60vh;
+  width: 50%;
+  position: absolute;
+  float: right;
+  right: 80px;
+  margin-top: 50px;
+}
+.offer {
+  background-color: green;
+  color: white;
+  height: 8%;
+  width: 38%;
+  padding-top: 5px;
+  text-align: center;
+  border-radius: 2%;
+}
+.heading {
+  /* background-color: aqua; */
+  height: 30%;
+  width: 30%;
+  padding-top: 10px;
+  font-size: 35px;
+}
+.paragraph {
+  height: 20%;
+  width: 100%;
+  /* background-color: blueviolet; */
+}
+button {
+  height: 10%;
+  width: 20%;
+  background-color: orange;
+  margin-top: 30px;
+  border-radius: 2%;
+  border: none;
+  cursor: pointer;
+}
+.section2 {
+  height: 30vh;
+  width: 100%;
+  /* background-color: red; */
+  position: relative;
+}
+.discount {
+  height: 30vh;
+  width: 20%;
+  /* background-color: green; */
+  position: absolute;
+  left: 20%;
+}
+
+.iconImage {
+  height: 50px;
+  width: 40px;
+}
+
+.healthy-food {
+  height: 30vh;
+  width: 20%;
+  /* background-color: blue; */
+  position: absolute;
+  left: 40%;
+}
+.delivery {
+  height: 30vh;
+  width: 20%;
+  /* background-color: aqua; */
+  position: absolute;
+  right: 20%;
+}
+.discountImage {
+  height: 50px;
+  width: 10px;
+  /* background-color: rgb(128, 139, 240); */
+
+  margin-top: 20%;
+}
+.name-container {
+  /* background-color: black; */
+  /* height: 80%; */
+  width: 80%;
+  float: right;
+  right: 0;
+  top: 50px;
+  position: absolute;
+}
+.name-container-paragraph {
+  top: 80px;
+  width: 80%;
+  float: right;
+  right: 0;
+  position: absolute;
+}
+
+.section3 {
+  height: 25vh;
+  width: 100%;
+  /* background-color: red; */
+}
+.our-menu {
+  margin-top: 7%;
+  height: 28%;
+  width: 18%;
+  margin-left: 40%;
+  text-align: center;
+  background-color: green;
+}
+#expolore-menu {
+  margin-left: 38%;
+  font-size: 40px;
+  margin-top: 30px;
+}
+.menu-image-container {
+  height: 100vh;
+  width: 100%;
+  /* background-color: red; */
+  position: relative;
+}
+
+.manu-image1 {
+  height: 40%;
+  width: 30%;
+  position: absolute;
+  left: 10%;
+}
+.manu-image2 {
+  height: 40%;
+  width: 20%;
+  position: absolute;
+  left: 42%;
+}
+.manu-image3 {
+  height: 40%;
+  width: 25%;
+  position: absolute;
+  left: 65%;
+}
+.manu-image4 {
+  height: 40%;
+  width: 30%;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+.manu-image6 {
+  height: 40%;
+  width: 20%;
+  position: absolute;
+  top: 45%;
+  left: 43%;
+}
+.manu-image7 {
+  height: 40%;
+  width: 25%;
+  position: absolute;
+  top: 45%;
+  left: 65%;
+}
+footer {
+  height: 30vh;
+  width: 100%;
+  background-color: bisque;
+  position: relative;
+}
+.logo-container {
+  /* background-color: deeppink; */
+  height: 30vh;
+  width: 20%;
+  position: absolute;
+  left: 10%;
+}
+.main-link {
+  /* background-color: red; */
+  height: 30vh;
+  width: 15%;
+  position: absolute;
+  right: 45%;
+}
+.about {
+  /* background-color: green; */
+  height: 30vh;
+  width: 15%;
+  position: absolute;
+  right: 30%;
+}
+.newslatter {
+  /* background-color: yellow; */
+  height: 30vh;
+  width: 25%;
+  position: absolute;
+  right: 0%;
+  float: right;
+}
+.logo-container-image {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-top: 25%;
+  margin-left: 25%;
+}
+.logo-name-container {
+  /* background-color: aqua; */
+  width: 45%;
+  float: right;
+  right: 10px;
+  margin-top: 26%;
+  color: green;
+}
+input {
+  height: 20%;
+  width: 60%;
+  margin-top: 10px;
+  border: none;
+  outline-style: none;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+}
+.twitter {
+  height: 40px;
+  width: 45px;
+  border-radius: 50%;
+
+  margin-top: 20px;
+  cursor: pointer;
+}
+.facebook {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 20px;
+
+  margin-top: 20px;
+  cursor: pointer;
+}
+.youtube {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.follow {
+  margin-top: 10px;
+  font-size: 20px;
+}
