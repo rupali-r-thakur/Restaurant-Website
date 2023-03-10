@@ -155,11 +155,13 @@ button {
 }
 .our-menu {
   margin-top: 7%;
-  height: 28%;
-  width: 18%;
+  height: 25%;
+  width: 15%;
   margin-left: 40%;
   text-align: center;
   background-color: green;
+  padding-top: 5px;
+  color: white;
 }
 #expolore-menu {
   margin-left: 38%;
